@@ -7,3 +7,17 @@
     gap: 20px;
     font-size: 20px;
 }
+#loginBtn{
+    width: 58px;
+    height: 40px;
+    margin-left: 15px;
+    background-color: white;
+    font: 600 0.9rem "Montserrat";
+    transition: all 0.5s;
+}
+#loginBtn:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+

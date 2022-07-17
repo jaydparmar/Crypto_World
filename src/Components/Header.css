@@ -21,3 +21,13 @@
     cursor: pointer;
 
 }
+.headerContainer{
+    margin:0.5rem 0;
+}
+.title{
+    display: flex;
+    flex: 1;
+    cursor: pointer;
+    border:none;
+    outline: none;
+}
