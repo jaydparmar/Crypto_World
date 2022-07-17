@@ -1,0 +1,57 @@
+.coinContainer{
+    display:flex;
+}
+
+.sidebar{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    border-right: 2px solid grey;
+}
+
+.sidebar a{
+    color: rgb(54,148,148);
+}
+
+.coinHeading{
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: "Montserrat";
+}
+
+.coinDesc{
+    width:100%;
+    font-family: "Montserrat";
+    padding: 25px;
+    padding-bottom: 15px;
+    padding-top: 0px;
+    text-align: justify;
+}
+.marketData{
+    align-self: flex-start;
+    padding: 25px;
+    padding-top: 1rem;
+    width: 100%;
+}
+
+@media screen and (max-width:600px) {
+    .coinContainer{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sidebar{
+        width: 100%;
+    }
+
+    .marketData{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+}

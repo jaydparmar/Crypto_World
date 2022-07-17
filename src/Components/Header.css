@@ -1,0 +1,23 @@
+.crypto{
+    background-color: white;
+    color: black;
+    border:1px solid white;
+    padding: 0.5vmax 0.75vmax;
+    font-size: 1.1rem;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    padding-right: 0px;
+    cursor: pointer;
+}
+.world{
+    border: 1px solid white;
+    padding: 0.5vmax 0.75vmax;
+    font-size: 1.1rem;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    padding-left: 2px;
+    cursor: pointer;
+
+}

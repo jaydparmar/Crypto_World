@@ -1,0 +1,10 @@
+.fortablerow{
+    background-color: #16171a;
+    font-family: Montserrat;
+}
+.fortablerow:hover{
+   background-color: #131111;
+}
+.MuiPaginationItem-root{
+    color: gold !important;
+}
